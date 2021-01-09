@@ -42,30 +42,6 @@ function setup() {
 
 function draw() {
   background(bgImg);
-  if(keyWentDown("right"))
-  {
-   fairy.velocityX=4
-  }
-  if(keyWentUp("right"))
-  {
-  fairy.velocityX=0
-  }
-  if(keyWentDown("left"))
-  {
-   fairy.velocityX=-4
-  }
-  if(keyWentUp("left"))
-  {
-   fairy.velocityX=0
-  }
-  if(keyDown("down"))
-  {
-   star.velocityY=6
-  }
-  if(star.y > 470)
-  {
-	star.velocityY=0  
-}
 
   drawSprites();
 
